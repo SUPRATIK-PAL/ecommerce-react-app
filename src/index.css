@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Teko:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+/* Root variables */
+:root {
+  --nav: #163d5c; /* Custom variable for navigation color */
+  --navhover: #205b8a;
+  --fontStyle: "Bebas Neue", cursive; /* Custom variable for font style */
+}
+
+/* Media query for screens with maximum width of 424px */
+@media only screen and (max-width: 424px) {
+  #card-image {
+    width: 11rem; /* Adjusting width for the card image */
+  }
+  :root {
+    font-size: 11px; /* Adjusting font size */
+  }
+}
+
+/* Body styles */
+body {
+  background-color: rgb(214, 214, 215); /* Background color for the body */
+}
+
+/* Media query for screens with maximum width of 992px */
+@media only screen and (max-width: 992px) {
+  #detailAddedImage {
+    width: 100%; /* Adjusting width for the detail added image */
+  }
+}
